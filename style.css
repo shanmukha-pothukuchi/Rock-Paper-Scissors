@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0
+}
+
+header > h1 {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  padding: 15px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  background: #333333;
+  color: white;
+}
+
+.scoreBoard {
+  border: 3px solid black;
+  width: 200px;
+  height: 75px;
+  padding: 15px 20px;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 5px;
+}
+
+.tag {
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-family: 'Merriweather', serif;
+  width: 50px;
+  padding: 2px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#user {
+  top: calc(75px/2);
+  left: -20px;
+}
+
+#comp {
+  top: calc(75px/2);
+  right: -20px;
+}
+
+.score {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+  line-height: 75px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 25px;
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+}
+
+.choices {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.choice {
+  display: inline-block;
+}
+
+img {
+  min-width: 125px;
+  width: 15vw;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 10px;
+  transition: all 0.5s ease;
+}
+
+img:hover {
+  border: 2px solid black;
+  cursor: pointer;
+  box-shadow: 1px 2px black;
+}
+
+.message {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.green-glow {
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+  border-radius: 50%;
+}
+
+.red-glow {
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+  border-radius: 50%;
+}
+
+.grey-glow {
+  border: 4px solid #464647;
+  box-shadow: 0 0 10px #25292b;
+  border-radius: 50%;
+}
